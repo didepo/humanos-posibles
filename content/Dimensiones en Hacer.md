@@ -1,0 +1,8 @@
+Hacer es comprometerse con una tensión real, permitiendo que la acción produzca información, fricción y responsabilidad, sin garantía de resultado.
+
+| **Dimensión**                 | **¿Qué implica realmente?**                                                      | **¿Qué necesitamos hacer para que pase?**                                                                                                   |
+| ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Compromiso**                | Salir de la observación cómoda y entrar en implicación real, aunque sea parcial. | Nombrar qué está en juego y para quién; declarar límites y disponibilidad; aceptar impacto en identidad; permitir retiradas conscientes.    |
+| **Producción de información** | Permitir que la acción revele algo desconocido.                                  | Diseñar acciones pequeñas y reales; registrar efectos; preguntar qué se aprendió antes de evaluar éxito; evitar explicaciones prematuras.   |
+| **Fricción (experimentar)**   | Entrar en contacto con resistencia, error o incomodidad.                         | Exponerse a contextos reales; permitir desacuerdos; distinguir fricción viva de conflicto destructivo; sostener incomodidad para aprender.  |
+| **Responsabilidad**           | Reconocer la acción como propia y asumir consecuencias.                          | Nombrar autoría sin culpa excesiva; revisar impactos no previstos; habilitar rendición de cuentas horizontal; reparar cuando sea necesario. |

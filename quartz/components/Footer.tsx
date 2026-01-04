@@ -13,17 +13,32 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
-        </p>
-        <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
-        </ul>
+        <div class="dp-license">
+          <a href="https://example.com">Diseño de Posibilidades</a>
+          <br />
+          © 2023 by{" "}
+          <a href="https://example.com">Juan Daza Arévalo</a>{" "}
+          is licensed under{" "}
+          <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+            Creative Commons Attribution-NonCommercial 4.0 International
+          </a>
+          <br />
+          <img
+            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+            alt="Creative Commons"
+            style="max-width: 1em; max-height: 1em; margin-left: .2em;"
+          />
+          <img
+            src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+            alt="Attribution"
+            style="max-width: 1em; max-height: 1em; margin-left: .2em;"
+          />
+          <img
+            src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+            alt="NonCommercial"
+            style="max-width: 1em; max-height: 1em; margin-left: .2em;"
+          />
+        </div>
       </footer>
     )
   }

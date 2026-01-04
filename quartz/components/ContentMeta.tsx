@@ -29,11 +29,17 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
+      // --- Fecha desactivada ---
+      /*
       if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+        segments.push(
+          <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />
+        )
       }
+      */
 
-      // Display reading time if enabled
+      // --- Tiempo de lectura desactivado ---
+      /*
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
@@ -41,9 +47,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         })
         segments.push(<span>{displayedTime}</span>)
       }
+      */
+
+      // Si no hay segmentos visibles, no renderizamos nada
+      if (segments.length === 0) return null
 
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+        <p
+          show-comma={options.showComma}
+          class={classNames(displayClass, "content-meta")}
+        >
           {segments}
         </p>
       )
