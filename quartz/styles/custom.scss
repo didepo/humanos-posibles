@@ -1,0 +1,53 @@
+@use "./base.scss";
+
+// ── Diseño de Posibilidades ──────────────────────────────
+
+article {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  hyphens: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+// Tablas de dimensiones: legibles y con scroll horizontal en móvil
+.table-container {
+  overflow-x: auto;
+}
+.table-container > table {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  border-collapse: collapse;
+  th,
+  td {
+    vertical-align: top;
+    padding: 0.55rem 0.8rem;
+    line-height: 1.5;
+  }
+  thead th {
+    border-bottom: 2px solid var(--secondary);
+  }
+  tbody tr:nth-child(odd) {
+    background-color: var(--highlight);
+  }
+}
+
+blockquote {
+  border-left-color: var(--secondary);
+}
+
+footer.dp-licencia {
+  font-size: 0.85rem;
+  p {
+    margin: 0.25rem 0;
+  }
+  .dp-creditos {
+    opacity: 0.7;
+  }
+}
